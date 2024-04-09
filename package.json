@@ -1,0 +1,30 @@
+{
+    "name": "text-readability",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npm install && webpack watch --mode development --devtool eval-source-map",
+        "prod": "npm install && webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@caspingus/syllable-count-english": "github:michaelsharman/syllable-count-english#main",
+        "automated-readability": "^2.0.1",
+        "coleman-liau": "^2.0.1",
+        "compromise": "^14.13.0",
+        "compromise-speech": "^0.1.0",
+        "dale-chall": "^2.0.1",
+        "dale-chall-formula": "^2.0.1",
+        "flesch": "^2.0.1",
+        "flesch-kincaid": "^2.0.1",
+        "gunning-fog": "^2.0.1",
+        "smog-formula": "^2.0.1"
+    },
+    "devDependencies": {
+        "webpack": "^5.59.1",
+        "webpack-cli": "^4.9.1"
+    }
+}
